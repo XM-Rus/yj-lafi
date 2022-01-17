@@ -2,6 +2,9 @@
 p {
   margin: 0 !important;
 }
+a {
+  text-decoration: none;
+}
 .border-radi-5 {
   border-radius: 5px;
 }
@@ -35,22 +38,24 @@ p {
   font-size: 20px;
 }
 .list-nav-btn {
-  padding: 10px;
-  background-color: #075556;
-  color: white;
+  padding: 15px;
+  min-width: 125px;
+  background-color: #fff;
+  color: #075556;
   margin: 0 5px;
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 1px 1px 3px gray;
 }
 .list-nav-btn:hover {
-  background-color: #fff;
-  color: #075556;
+  background-color: #075556;
+  color: #fff;
 }
 .list-nav-btn-active {
-  padding: 10px;
-  background-color: #fff;
-  color: #075556;
+  padding: 15px;
+  min-width: 125px;
+  background-color: #075556;
+  color: #fff;
   margin: 0 5px;
   border: 1px solid gray;
   border-radius: 5px;
@@ -71,19 +76,19 @@ p {
   width: 48%;
   height: auto;
   padding: 13px;
-  background-color: #075556;
-  color: white;
+  background-color: #fff;
+  color: #075556;
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 1px 1px 3px gray;
 }
 .list-small-nav-wrap button:hover {
-  background-color: #fff;
-  color: #075556;
+  background-color: #075556;
+  color: #fff;
 }
 .list-small-nav-wrap .active {
-  background-color: #fff;
-  color: #075556;
+  background-color: #075556;
+  color: #fff;
 }
 .list-type-nav-wrap {
   display: flex;
@@ -99,7 +104,7 @@ p {
   background-color: #fff;
   color: #075556;
   border: 1px solid lightgrey;
-  min-height: 70px;
+  min-height: 64px;
   font-size: 16px;
 }
 .list-type-nav-wrap div .active {
@@ -120,7 +125,7 @@ p {
 
 .side-bar-wrap {
   position: fixed;
-  bottom: 200px;
+  bottom: 250px;
   right: 0px;
   height: auto;
   width: 90px;
