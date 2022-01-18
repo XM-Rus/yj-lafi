@@ -51,15 +51,23 @@ a {
   font-size: 20px;
 }
 .mainbg-h-70v {
-  height: 100vh !important;
+  width: 100%;
+  height: 100% !important;
   padding-bottom: 50px !important;
+  background: url(../vid/mainbg-vi.mp4);
+}
+.main-bg-vid {
+  height: auto;
+  width: 100%;
+  background: url(../vid/mainbg-vi.mp4);
 }
 .mainbg-h-wrap {
   height: auto !important;
 }
 .mainbg-video {
-  height: 100vh;
-  width: auto !important;
+  height: auto;
+  width: 100% !important;
+  margin: 0 auto !important;
 }
 .list-nav-btn {
   padding: 15px;
