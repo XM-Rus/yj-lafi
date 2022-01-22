@@ -90,7 +90,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0 main-nav-colmn-gap">
-                <a href="../index.html" class="nav-item nav-link active">Home</a>
+                <a href="../index.html" class="nav-item nav-link">Home</a>
                 <a href="../about/" class="nav-item nav-link">사업안내</a>
                 <div class="nav-item dropdown">
                     <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">상품안내</a>
@@ -99,7 +99,7 @@
                         <a href="../list-dis" class="dropdown-item">전시품목 안내</a>
                     </div>
                 </div>
-                <a href="../visit/" class="nav-item nav-link">방문예약</a>
+                <a href="../visit/" class="nav-item nav-link active">방문예약</a>
                 <a href="../waytocome/" class="nav-item nav-link">오시는길</a>
             </div>
             <a href="../contact/" style="border-radius: 20px; padding: 24px !important;"
@@ -110,11 +110,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">관람예약 더미페이지</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">관람예약 / Visit</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb m-15">
-                    <button onclick="location.href='../contact/';" class="list-nav-btn">상담예약</button>
-                    <button onclick="location.href='../visit/';" class="list-nav-btn-active">관람예약</button>
+                    <button onclick="location.href='../contact/';" class="list-nav-btn-active">상담예약</button>
+                    <button onclick="location.href='../visit/';" class="list-nav-btn">관람예약</button>
 
                 </ol>
             </nav>
@@ -123,63 +123,119 @@
     <!-- Page Header End -->
 
 
-    <!-- Contact Start -->
-    <div class="container-fluid bg-light overflow-hidden px-lg-0" style="margin: 6rem 0;">
-        <div class="container contact px-lg-0">
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container quote px-lg-0">
             <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">관람예약</h1>
-                        </div>
-                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact
-                            form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and
-                            you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message"
-                                            style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="../img/mainbg-06-2.jpg"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="section-title text-start">
+                            <h2> 🏡 관람예약 등록</h2>
+                            <br>
+                        </div>
+
+                        <aside style="word-break: keep-all; text-align: center;">
+                            <p>문의 양식에 맞추어 작성해주시면 확인 후 신속히 연락드리겠습니다.
+                            </p>
+                            <br />
+                        </aside>
+
+                        <!-- START HERE -->
+                        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+                        <!-- Style The Contact Form How Ever You Prefer -->
+                        <link rel="stylesheet" href="style.css">
+
+                        <form class="gform pure-form pure-form-stacked" method="POST" data-email="example@email.net"
+                            action="https://script.google.com/macros/s/AKfycbzF8c-OSUjl0LyHLUwLXs3n53lQF8od0AGx4xdP/exec">
+                            <!-- change the form action to your script url -->
+                            <p style="text-align:right;">*는 필수 입력사항입니다.</p>
+                            <div class="form-elements">
+                                <fieldset class="pure-group">
+                                    <label for="name">성함 * : </label>
+                                    <input id="name" name="고객 성함" required="" placeholder="이름을 입력해주세요." />
+                                </fieldset>
+
+                                <fieldset class="pure-group">
+                                    <label for="email"> 연락처 * :</label>
+                                    <input id="phone" name="연락처" required="" placeholder="연락처를 입력해주세요." />
+                                </fieldset>
+
+                                <fieldset class="pure-group">
+                                    <label for="email"> E-mail * :</label>
+                                    <input id="email" name="email 주소" type="email" value="" required
+                                        placeholder="email@email.com" />
+                                </fieldset>
+
+                                <fieldset class="pure-group">
+                                    <label for="message">문의사항: </label>
+                                    <textarea id="message" name="문의사항" rows="5" placeholder="문의사항을 입력해주세요."></textarea>
+                                </fieldset>
+                                <fieldset class="pure-group">
+                                    <label for="date">관람희망 날짜 * : </label>
+                                    <input id="date" name="관람희망 날짜" type="date" value="2022-01-01" required=""
+                                        placeholder="날짜" />
+                                </fieldset>
+
+
+
+                                <fieldset class="pure-group">
+                                    <label for="agreement">이용동의 * : </label>
+                                    <textarea id="agreement" name="agreement" rows="8" readonly=""
+                                        style="padding:0; line-height: 1.5rem;" placeholder="	
+당사는 「개인정보보호법」에 의거하여, 아래와 같은 내용으로 개인정보를
+수집하고 있습니다.
+귀하께서는 아래 내용을 자세히 읽어 보시고, 모든 내용을 이해하신 후에 동의 여부를 결정해 주시기 바랍니다.
+- 이용자가 제공한 모든 정보는 다음의 목적을 위해 활용하며, 하기 목적 이외의 용도로는 사용되지 않습니다.
+① 개인정보 수집 항목 및 수집·이용 목적
+가) 수집 항목 (필수항목)
+- 성명(국문), 전화번호, 이메일, 문의사항 등 문의 신청서에 기재된 정보
+  또는 신청자가 제공한 정보
+나) 수집 및 이용 목적
+- 고객 문의에 대한 원활한 상담 진행
+② 개인정보 보유 및 이용기간
+- 수집·이용 동의일로부터 개인정보의 수집·이용목적을 달성할 때까지
+③ 동의거부관리
+- 귀하께서는 본 안내에 따른 개인정보 수집, 이용에 대하여 동의를 거부하실 권리가 있습니다. 다만,
+귀하가 개인정보의 수집/이용에 동의를 거부하시는 경우에 원활한 상담 진행에 어려움이 발생할 수 있음을 알려드립니다."></textarea>
+                                </fieldset>
+                                <br>
+
+                                <label for="multi-terms" class="pure-checkbox">
+                                    <input type="checkbox" id="multi-terms" required="" /> 개인정보 수집 및 이용에 동의
+                                </label>
+
+
+                                <button class="button-success pure-button button-xlarge" style="margin-bottom: 50px;">
+                                    <i class="fa fa-paper-plane"></i>&nbsp;전송하기</button>
+                            </div>
+
+                            <!-- Customise the Thankyou Message People See when they submit the form: -->
+                            <div class="thankyou_message" style="display:none;">
+                                <h2 style="text-align:center;">성공적으로 제출되었습니다. 담당자 확인 후 빠르게 연락드리겠습니다.</h2>
+                                <div class="cardgotohome">
+                                    <a href="https://kellyfnc.com/" target="_parent">
+                                        <img class="cardgotohome" src="./card-1.png" alt="">
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+
+                        </form>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- Quote End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -226,6 +282,20 @@
 
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="form-submission-handler.js"></script>
+    <!-- END -->
+    <script type="text/javascript">
+
+        pagemove = function (target) {
+
+            window.parent.location.href = target;
+
+        };
+
+    </script>
 </body>
 
 </html>

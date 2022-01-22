@@ -6,6 +6,20 @@ a {
   text-decoration: none;
 }
 
+.pure-group label {
+  width: 95% !important;
+  margin: 10px auto !important;
+}
+
+.pure-group input {
+  width: 95%;
+  margin: 0 auto !important;
+}
+.pure-group textarea {
+  width: 95% !important;
+  margin: 0 auto !important;
+}
+
 #msgicon {
   width: 4rem;
   padding: 5px;
