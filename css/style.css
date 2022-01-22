@@ -20,6 +20,12 @@ a {
 }
 .border-radi-5 {
   border-radius: 5px;
+  padding: 10px;
+}
+.border-radi-5:hover {
+  color: #fff;
+  background-color: #b8895e;
+  border-color: #b38255;
 }
 .logo-main {
   width: 300px;
@@ -37,7 +43,7 @@ a {
   color: white;
   font-size: 50px;
   display: flex;
-  width: 45vh;
+  width: 50%;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
@@ -68,6 +74,18 @@ a {
   height: auto;
   width: 100% !important;
   margin: 0 auto !important;
+}
+.main-bg-sec-wrap {
+  height: 94vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/mainbg-06.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .list-nav-btn {
   padding: 15px;
@@ -159,7 +177,7 @@ a {
   bottom: 70px;
   left: 30px;
   height: auto;
-  width: 90px;
+  width: auto !important;
   z-index: 99999 !important;
   text-align: center !important;
   height: auto;
@@ -375,7 +393,7 @@ a {
     color: white;
     font-size: 50px;
     display: flex;
-    width: 70vh;
+    width: 90%;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -909,6 +927,11 @@ a {
 .footer {
   background: linear-gradient(rgba(53, 53, 53, 0.7), rgba(53, 53, 53, 0.7)), url(../img/footer.jpg) center center no-repeat;
   background-size: cover;
+  padding: 15px 0 !important;
+}
+
+.footer .g-5 {
+  --bs-gutter-y: 1rem;
 }
 
 .footer .btn.btn-social {
