@@ -56,17 +56,7 @@ a {
 .main-bg-text-warp span {
   font-size: 20px;
 }
-.mainbg-h-70v {
-  width: 100%;
-  height: 100% !important;
-  padding-bottom: 50px !important;
-  background: url(../vid/mainbg-vi.mp4);
-}
-.main-bg-vid {
-  height: auto;
-  width: 100%;
-  background: url(../vid/mainbg-vi.mp4);
-}
+
 .mainbg-h-wrap {
   height: auto !important;
 }
@@ -78,7 +68,7 @@ a {
 .main-bg-sec-wrap {
   height: 94vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/mainbg-06.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/mainbg-06-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
