@@ -96,7 +96,7 @@ a {
   min-width: 125px;
   background-color: #fff;
   color: #075556;
-  margin: 0 5px;
+  margin: 5px 5px;
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 1px 1px 3px gray;
@@ -110,7 +110,7 @@ a {
   min-width: 125px;
   background-color: #075556;
   color: #fff;
-  margin: 0 5px;
+  margin: 5px 5px;
   border: 1px solid gray;
   border-radius: 5px;
   box-shadow: 1px 1px 3px gray;
@@ -401,8 +401,53 @@ a {
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--primary);
 }
+
+.about-contents-wrap {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.about-contents-wrap p {
+  font-size: 30px;
+  padding: 0 0 15px 0;
+}
+.about-contents-wrap span {
+  font-size: 15px;
+  border-bottom: 1px solid lightgray;
+  margin: 0 0 80px 0;
+  padding: 0 0 20px 0;
+}
+.about-contents-wrap img {
+  width: 100%;
+  margin: 15px auto !important;
+}
 /* 모바일 시작*/
 @media (max-width: 991.98px) {
+  .about-contents-wrap {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-contents-wrap p {
+    font-size: 20px;
+    padding: 0 0 15px 0;
+  }
+  .about-contents-wrap span {
+    font-size: 13px;
+    border-bottom: 1px solid lightgray;
+    margin: 0 0 30px 0;
+    padding: 0 0 10px 0;
+  }
+  .about-contents-wrap img {
+    width: 100%;
+    margin: 15px auto !important;
+  }
   .navbar-light .navbar-nav .nav-link {
     margin-right: 0;
     padding: 10px 0;
