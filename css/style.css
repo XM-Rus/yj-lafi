@@ -484,6 +484,7 @@ a {
   }
   .side-bar-wrap p {
     margin: 0;
+    font-size: 12px;
   }
   .side-bar-0 {
     height: 90px;
@@ -533,16 +534,16 @@ a {
     row-gap: 10px;
   }
   .side-bar-0 img {
-    width: 40px;
+    width: 35px;
   }
   .side-bar-1 img {
-    width: 40px;
+    width: 35px;
   }
   .side-bar-2 img {
-    width: 40px;
+    width: 35px;
   }
   .side-bar-3 img {
-    width: 40px;
+    width: 35px;
     margin: 0 auto !important;
   }
   /* 주택형 안내 */
