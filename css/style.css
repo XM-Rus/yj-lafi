@@ -408,6 +408,10 @@ a {
     padding: 10px 0;
   }
 
+  #msgicon {
+    width: 3rem;
+    padding: 5px;
+  }
   .navbar-light .navbar-nav {
     border-top: 1px solid #eeeeee;
   }
@@ -458,13 +462,16 @@ a {
   }
   .side-bar-wrap-2 {
     position: fixed;
-    bottom: 50px;
-    left: 30px;
+    bottom: 20px;
+    left: 20px;
     height: auto;
     width: 90px;
     z-index: 99999 !important;
     text-align: center !important;
     height: auto;
+  }
+  .side-bar-wrap-2 a {
+    font-size: 12px;
   }
   .side-bar-wrap {
     position: fixed;
