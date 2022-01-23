@@ -204,6 +204,18 @@ a {
 .side-bar-wrap p {
   margin: 0;
 }
+.side-bar-0 {
+  height: 110px;
+  background-color: #353535;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  row-gap: 10px;
+}
 .side-bar-1 {
   height: 110px;
   background-color: #075556;
@@ -239,6 +251,9 @@ a {
   align-items: center;
   row-gap: 10px;
 }
+.side-bar-0 img {
+  width: 50px;
+}
 .side-bar-1 img {
   width: 50px;
 }
@@ -265,6 +280,25 @@ a {
   flex: 1;
 }
 
+.form-bg-wrap {
+  background-image: url(../img/lafi-contact-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes blink-effect {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.form-bg-wrap img {
+  width: 70%;
+  animation: blink-effect 1.2s step-end infinite;
+}
 /* */
 
 :root {
@@ -444,6 +478,18 @@ a {
   .side-bar-wrap p {
     margin: 0;
   }
+  .side-bar-0 {
+    height: 90px;
+    background-color: #353535;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    row-gap: 10px;
+  }
   .side-bar-1 {
     height: 90px;
     background-color: #075556;
@@ -458,7 +504,7 @@ a {
   }
   .side-bar-2 {
     height: 90px;
-    background-color: #fff;
+    background-color: #f5f5f5;
     padding: 5px;
     text-align: center;
     display: flex;
@@ -479,6 +525,9 @@ a {
     align-items: center;
     row-gap: 10px;
   }
+  .side-bar-0 img {
+    width: 40px;
+  }
   .side-bar-1 img {
     width: 40px;
   }
@@ -488,6 +537,25 @@ a {
   .side-bar-3 img {
     width: 40px;
     margin: 0 auto !important;
+  }
+  /* 주택형 안내 */
+  .type-img-wrap {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .type-img-array {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 30px auto;
+    flex-direction: column;
+  }
+  .type-img-array div {
+    flex: 1;
+  }
+  .type-img-wrap img {
+    width: 100%;
+    margin: 20px 0;
   }
 }
 
