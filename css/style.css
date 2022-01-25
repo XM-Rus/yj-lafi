@@ -424,6 +424,16 @@ a {
   width: 100%;
   margin: 15px auto !important;
 }
+.main-bg-text-warp span {
+  text-shadow: 4px 2px 15px white !important;
+  font-size: 22px;
+  padding: 3px 0;
+}
+.main-bg-txt-wrap-span {
+  text-shadow: 4px 2px 15px white !important;
+  font-size: 22px;
+  padding: 10px 0;
+}
 /* 모바일 시작*/
 @media (max-width: 991.98px) {
   .about-contents-wrap {
@@ -442,7 +452,7 @@ a {
     font-size: 13px;
     border-bottom: 1px solid lightgray;
     margin: 0 0 30px 0;
-    padding: 0 0 10px 0;
+    padding: 5px 0 10px 0;
   }
   .about-contents-wrap img {
     width: 100%;
@@ -503,7 +513,14 @@ a {
     font-size: 17px;
   }
   .main-bg-text-warp span {
+    text-shadow: 4px 2px 15px white !important;
     font-size: 22px;
+    padding: 3px 0;
+  }
+  .main-bg-txt-wrap-span {
+    text-shadow: 4px 2px 15px white !important;
+    font-size: 22px;
+    padding: 3px 0;
   }
   .side-bar-wrap-2 {
     position: fixed;
